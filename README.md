@@ -8,7 +8,7 @@
 Sync business partners from SAP S/4HANA into an external CRM. On demand (later: scheduled), the iFlow reads Business Partners from the S/4HANA OData API, maps them to the CRM's JSON format, and sends them to the CRM's REST API. If something fails, it retries and logs a traceable error.
 
 ## Architecture
-![Architecture](docs/diagram.svg)
+![Architecture](diagram.svg)
 
 - **Source:** SAP S/4HANA — Business Partner OData API (SAP Business Accelerator Hub sandbox)
 - **Target:** External CRM — REST API (mock)
